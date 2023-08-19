@@ -1,10 +1,13 @@
+html {
+    font-size: font-size: 62.5%; /* set root font size to 10px to use rem units for scalability*/
+}
 body {
-    font-size: 20px;
+    font-size: 2rem; /* 1 rem = 10px, so 2 rem = 20 px */
 }
 
 .pageHeader {
     text-align: center;
-    font-size: 72px;
+    font-size: 7.2rem; /* 1 rem=10px so 7.2rem = 72px */
 }
 .pageSubheader {
 
