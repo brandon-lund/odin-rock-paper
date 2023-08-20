@@ -1,10 +1,22 @@
+html {
+    font-size: 62.5%;
+}
+
 body {
-    font-size: 20px;
+    font-size: 2rem;
+    background-color: aqua;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
 }
 
 .pageHeader {
     text-align: center;
-    font-size: 72px;
+    font-size: 7.2rem;
 }
 .pageSubheader {
 
@@ -20,4 +32,39 @@ body {
 
 .scoreboard {
 
+}
+
+#playerScore {
+    display: inline-block;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+#computerScore {
+    display: inline-block;
+    color: yellow;
+    font-weight: bold;
+}
+
+#playerChoiceCont {
+    display: inline-block;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+#computerChoiceCont {
+    display: inline-block;
+    color: yellow;
+    font-weight: bold;
+}
+
+#resultDisplay {
+    color: violet;
+    font-weight: bold;
+}
+
+#currentScoreText {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: bolder;
 }
